@@ -1,11 +1,11 @@
 img{
-    width: 100%;
+max-width: 100%;
 }
 .logo{
     width: 700px;
     height: auto;
     z-index: 2000;
-    margin-left: 50px;
+   
 }
 
 .mi-bg-dark{
@@ -22,6 +22,7 @@ img{
 
 h2{
     color: white;
-    margin-right: 50px;
+   
    
 }
+

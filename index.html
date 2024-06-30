@@ -59,22 +59,22 @@
             >
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="./index.html"
                     >Inicio</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Quien somos</a>
+                  <a class="nav-link" href="#nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Historia</a>
+                  <a class="nav-link" href="#productos">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Productos</a>
+                  <a class="nav-link" href="#historia">Historia</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contacto</a>
+                  <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -87,8 +87,10 @@
       <section class="container  ">
         <img src="./img/portada2.jpeg" alt="" />
       </section>
-      <!--Carrusel-->
-      <section class="container py-5">
+
+      <!--Carrusel Nosotros-->
+      
+      <section id="nosotros" class="container mt-5" >
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -128,7 +130,26 @@
           </button>
         </div>
       </section>
-      <section class=" container mt-5 cardMio">
+
+      <section class="container mb-5 ">
+        
+        <p class="texto-historia">Granja Los Teros, mas que un establecimiento de elaboración de productos de origen vegetal es un rincón mágico
+          ubicado en el valle de Picún Leufú, donde la pasión por la tradición y la
+          naturaleza se fusiona con la creatividad culinaria. Nuestros productos: la pasta de ají y las mermeladas hacen de
+          nuestro trabajo diario el deleite de quienes los prueban.-
+        </p>
+          <p class="texto-historia">
+            Granja Los Teros, more than an establishment for the elaboration of vegetable products, is a magical corner
+            located in the valley of Picún Leufú. where the passion for tradition and
+            nature merges with culinary creativity. Our products: chili paste and jams make of our daily work the
+            delight of those who taste them.
+          </p>
+          
+    </section>
+       <!--Fin Carrusel Nosotros-->
+
+      <!--Productos-->
+      <section id="productos" class=" container mt-5 cardMio">
         <img src="./img/aji.jpeg" alt="" />
       </section>
       <section  class=" container mt-5 cardMio">
@@ -146,7 +167,7 @@
         </div>
       </section>
        <!--Carrusel Productos-->
-       <section class="container py-5">
+       <section  class="container py-5">
         <div id="carruselProductos" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carruselProductos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -203,15 +224,16 @@
         </div>
       </section>
        <!--Fin Carrusel Productos-->
+       <!--Fin Productos-->
 
        <!--Video Historia-->
-       <section class="container">
+       <section id="historia" class="container">
           <video src="./img/video/abueloMp4.mp4"  controls></video>
        </section>
        <!--Video Historia-->
 
       <!--Contacto-->
-      <section class="container mt-5">
+      <section id="contacto" class="container mt-5">
         <section>
           <img src="./img/ubicacionTop.jpeg" alt="" />
         </section>
@@ -233,10 +255,10 @@
     </main>
     <footer class="container-fluid mt-5 bg-footer ">
       <div class="row">
-        <section class="col-md-12 col-6">
+        <section class="col-sm-12 col-md-6">
           <img src="./img/footer2.jpeg" alt="" />
         </section>
-        <section class="col-md-12 col-6   ">
+        <section class="col-sm-12 col-md-6">
           <div class=" pt-5 ">
             <a  href="https://www.instagram.com/granja.los.teros/" target="_blank">
               <i class=" cardMio fa-brands fa-instagram fa-4x redes"></i>

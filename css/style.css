@@ -30,6 +30,16 @@ video {
   position: absolute;
 }
 
+.carrusel-nosotros{
+  width: 100%;
+  height:300px ;
+  object-fit: cover;
+}
+
+.img-carrusel{
+  object-fit: cover;
+}
+
 .mi-bg-dark {
   background-color: #721422;
 }
@@ -50,7 +60,7 @@ video {
   text-align: justify;
   font-family: "Abril Fatface", serif;
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   font-size: 22px;
 }
 

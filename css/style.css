@@ -9,14 +9,14 @@ img {
 a {
   text-decoration: none;
 }
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
   font-size: 20px;
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-main{
+main {
   background-color: #d3b77a;
 }
 video {
@@ -30,13 +30,13 @@ video {
   position: absolute;
 }
 
-.carrusel-nosotros{
+.carrusel-nosotros {
   width: 100%;
-  height:300px ;
+  height: 300px;
   object-fit: cover;
 }
 
-.img-carrusel{
+.img-carrusel {
   object-fit: cover;
 }
 
@@ -46,29 +46,67 @@ video {
 .fondoNegro {
   width: 100%;
   height: 300px;
+
   background-color: black;
   align-items: center;
   justify-content: end;
 }
 
-.bg-texto{
+.bg-texto {
   background-color: rgb(0, 0, 0);
 }
 
-.texto-historia{
+.texto-nosotros-negrita {
   color: black;
   text-align: justify;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 28px;
+  /*
   font-family: "Abril Fatface", serif;
   font-weight: 500;
   font-style: normal;
   font-size: 22px;
+  */
+}
+.texto-nosotros {
+  color: black;
+  text-align: justify;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 22px;
+}
+
+.texto-historia {
+  color: black;
+  text-align: justify;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.texto-historia-negrita {
+  color: black;
+  text-align: justify;
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 20px;
 }
 
 h2 {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+  /*
   color: white;
   font-family: "Abril Fatface", serif;
   font-weight: 1000;
   font-style: normal;
+  */
   /*
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -123,6 +161,18 @@ h2 {
     background-color: #721422;
     justify-content: center;
   }
+  .texto-nosotros {
+    font-size: 16px;
+  }
+  .carrusel-nosotros {
+    height: 200px;
+  }
+  .texto-historia {
+    font-size: 16px;
+  }
+  .fondoNegro{
+    padding-top: 30px;
+  }
 }
 
 /* Mobile */
@@ -149,4 +199,16 @@ h2 {
     text-align: center;
     justify-content: center;
   }
+  .texto-nosotros {
+    font-size: 12px;
+  }
+  .carrusel-nosotros {
+    height: 150px;
+  }
+  .texto-historia {
+    font-size: 12px;
+  }
+ .fondoLogo{
+   width: 100%;
+ }
 }
